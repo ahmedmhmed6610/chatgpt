@@ -17,7 +17,7 @@ class ChatScreen extends StatefulWidget {
 }
 
 class _ChatScreenState extends State<ChatScreen> {
-  final String apiKey = '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';
+  final String apiKey = 'api-key';
   String? answer;
   final loadingNotifier = ValueNotifier<bool>(false);
   final List<QuestionAnswer> questionAnswers = [];
